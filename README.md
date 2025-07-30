@@ -1,17 +1,23 @@
 # KaliMindOS
-An open-source, modular AI-powered system for Kali Linux. Designed for hackers, learners, and power users.
+
+KaliMindOS is an intelligent, modular, and community-driven Linux assistant system designed primarily for Kali Linux but adaptable to other distros.
 
 ## Features
-- Voice-controlled assistant (Jarvis-AI Integration)
-- Modular system with plugins and developer contributions
-- Secure command recall system with passphrase
-- Status, updates, logs via `-s` CLI system
-- Community-safe development with code scanning
+- Smart CLI engine with self-learning capability.
+- Secure plugin & update system.
+- GUI support for non-terminal users.
+- Command memory, alias suggestion, and categorized update manager.
+- Personalized development folders & tools.
+- GitHub-based community module expansion.
 
 ## Installation
+
 ```bash
-git clone https://github.com/sooynam/KaliMindOS.git
-cd KaliMindOS
-chmod +x install.sh
-./install.sh -install
+bash install.sh
 ```
+
+## Contribution
+Feel free to fork and submit pull requests. Each submission is scanned and verified before activation.
+
+## License
+MIT
